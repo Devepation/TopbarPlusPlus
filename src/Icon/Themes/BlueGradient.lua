@@ -25,7 +25,7 @@ return {
         -- If a selected value is not specified, it will default to the deselected value
         selected = {
             iconBackgroundColor = Color3.fromRGB(255, 255, 255),
-            iconBackgroundTransparency = 0.1,
+            iconBackgroundTransparency = 0.11123,
             iconGradientColor = ColorSequence.new(selectedColor, selectedColorDarker),
             iconGradientRotation = 90,
             iconImageColor = Color3.fromRGB(255, 255, 255),

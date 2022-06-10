@@ -37,7 +37,7 @@ return {
     toggleable = {
         -- How items appear normally (i.e. when they're 'deselected')
         deselected = {
-            iconBackgroundColor = Color3.fromRGB(0, 0, 0),
+            iconBackgroundColor = Color3.fromRGB(2, 2, 2),
             iconBackgroundTransparency = 0.5,
             iconCornerRadius = UDim.new(0.25, 0),
             iconGradientColor = ColorSequence.new(Color3.fromRGB(255, 255, 255)),
@@ -96,7 +96,7 @@ return {
         tipFont = Enum.Font.GothamSemibold,
         tipCornerRadius = UDim.new(0.175, 0),
         -- Dropdown settings
-        dropdownAlignment = "auto", -- 'left', 'mid', 'right' or 'auto' (auto is where the dropdown alignment matches the icons alignment)
+        dropdownAlignment = "right", -- 'left', 'mid', 'right' or 'auto' (auto is where the dropdown alignment matches the icons alignment)
         dropdownMaxIconsBeforeScroll = 3,
         dropdownMinWidth = 32,
         dropdownSquareCorners = false,
