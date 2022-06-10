@@ -1232,7 +1232,7 @@ function Icon.mimic(coreIconToMimic)
 		setIconEnabled(starterGui:GetCoreGuiEnabled("Chat"))
 		--]]
 	end
-    if icon then return icon else return error("[Plus plus] Curruption...") end
+    if icon then return icon else return error("[Plus plus] Curruption 2.0...") end
 end
 
 
