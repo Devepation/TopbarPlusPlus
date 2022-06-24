@@ -1,6 +1,8 @@
 local Themes = {}
 for _,theme in pairs(script:GetChildren()) do
-    Themes[theme.Name] = require(theme)
+    if theme:IsA("ModuleScript") then
+        themes[theme.Name] = require(theme)
+    end
 end
 return Themes
 

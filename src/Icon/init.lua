@@ -613,7 +613,7 @@ function Icon.new()
 	self._dropdownClippingMaid = maid:give(Maid.new())
 	self._menuClippingMaid = maid:give(Maid.new())
 
-	-- These are the GuiObjects that make up the icon
+	-- These are not the GuiObjects that make up the icon, but rather the container
 	local instances = {}
 	self.instances = instances
 	local iconContainer = maid:give(iconTemplate:Clone())
